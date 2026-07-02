@@ -1,0 +1,350 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage{scrextend}
+
+\input{glyphtounicode}
+
+% -------------------- FONT OPTIONS --------------------
+% sans-serif
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% serif
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Subsection formatting
+\titleformat{\subsection}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{\hspace{-.15in}}{0em}{}[\color{black}\vspace{-8pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% -------------------- CUSTOM COMMANDS --------------------
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-6pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \small#3 & \small #4 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-6pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\setlength{\footskip}{4.08003pt}
+
+% Adjust margins
+\addtolength{\topmargin}{-0.3in} % Move the content closer to the top
+
+% -------------------- START OF DOCUMENT --------------------
+\begin{document}
+
+% -------------------- HEADING--------------------
+
+
+\begin{center}
+
+    \textbf{\LARGE \scshape Cyrus Hamlin} \\ \vspace{8pt}
+    \small
+    Cambridge, MA  02138$\;\;\circ\;\;$chamlin@college.harvard.edu$\;\;\circ\;\;  (906) \;370$-$0146$
+\end{center}
+
+
+% -------------------- EDUCATION --------------------
+\vspace{-20pt}
+\section{Education}
+  \resumeSubHeadingListStart
+  \vspace{1pt}
+
+    \resumeSubheading
+      {Harvard University}{Cambridge, MA}
+      {A.B. Mathematics and Statistics, GPA: 3.88/4.00}{\textit{May 2027}}
+      \begin{addmargin}[1em]{5em}
+
+      \vspace{4pt}
+       \textbf{Relevant Coursework:}
+       \vspace{-8pt}
+      \resumeItemListStart
+        \resumeItem{Math 55A/B: \textit{Algebra, Group Theory, Real and Complex Analysis},  \textit{Graduate Probability I}, \textit{Introduction to Data Science}, \textit{Intro to Statistical Inference}, \textit{ Intro to Stochastic Processes, }\textit{Graduate Time Series}, \textit{Data Science of Networks}, \textit{Probability and Random Processes with Economic Applications}} 
+        
+      \resumeItemListEnd
+      \end{addmargin}
+% \vspace{3pt}
+
+    \vspace{2pt}
+      \resumeSubheading
+      {Houghton High School }{Houghton, MI}
+      {Valedictorian,  GPA: 4.00/4.00}{\textit{May 2023}}
+
+      \begin{addmargin}[0em]{5em}
+      \end{addmargin}
+
+% \vspace{3pt}
+\vspace{-3pt}
+\resumeSubheading
+      {Michigan Technological University}{Houghton, MI}
+      {Dual enrollment coursework in mathematics, GPA: 4.00/4.00}{\textit{Apr. 2023}}
+      \begin{addmargin}[0em]{5em}
+      \vspace{3pt}
+      Received special recognition from department chair for outstanding performance in 5 of 7 courses
+      \vspace{-4pt}
+      \end{addmargin}
+      \begin{addmargin}[1em]{5em}
+       \textbf{Relevant Coursework:} 
+        \resumeItemListStart
+        \vspace{-8pt}
+        
+        \resumeItem{\textit{Mathematical Modeling with Differential Equations}, \textit{Linear Algebra}, \textit{Multivariable Calculus}}
+      \resumeItemListEnd
+      \end{addmargin}
+  \resumeSubHeadingListEnd
+  \vspace{-16pt}
+% -------------------- TECHNICAL SKILLS --------------------
+
+\section{Technical Skills}
+
+  \resumeItemListStart 
+  \resumeItem{\textbf{Programming Languages:} \textit{Python, R, C, SQL, Mathematica, \LaTeX}}
+  \vspace{-2pt}
+  \resumeItem{\textbf{Python Libraries:} \textit{PyTorch, NumPy, Pandas, scikit-learn, matplotlib, LightGBM, BeautifulSoup, Scrapy}}
+  \vspace{-2pt}
+  % \resumeItem{\textbf{Skills:} \textit{Predictive Modeling, Machine Learning, Feature Engineering, Web Scraping \& API Integration, Data Wrangling, Document Preperation}}
+  \resumeItem{\textbf{Skills:} \textit{Machine learning, feature engineering \& data wrangling, web scraping \& APIs, document preparation (\LaTeX)}}
+    \vspace{8pt}
+  
+  \resumeItemListEnd
+  \vspace{-21pt}
+% -------------------- EXPERIENCE --------------------
+\section{Projects}
+\resumeSubHeadingListStart
+
+% \resumeProjectHeading
+% {\textbf{Sentiment Analysis of New York Times Headlines}}{\small{\textit{Nov. 2024}}}
+% \begin{addmargin}[1em]{5em}
+% \resumeItemListStart
+%   \resumeItem{Analyzed over 100 years of New York Times headlines to identify trends in sentiment using sentiment vector analysis.}
+%   \resumeItem{Developed a Python pipeline for data scraping, preprocessing, and statistical analysis.}
+%   \resumeItem{Visualized trends over decades, highlighting shifts in tone during key historical periods.}
+% \resumeItemListEnd
+% \end{addmargin}
+
+
+\resumeProjectHeading
+{\textbf{Independent Quantitative Trading Project}}{\small{\textit{August 2025}}}
+\begin{addmargin}[1em]{5em}
+\resumeItemListStart
+  \resumeItem{Collected and cleaned historical stock data via the Alpha Vantage API}
+  \resumeItem{Engineered financial features and trained gradient boosted decision trees to forecast future stock returns}
+
+  \vspace{-11pt}
+  \resumeItem{Backtested 72 trading days, generating \$10.9k profit on \$200k simulated capital (20\% annualized return)}
+\resumeItemListEnd
+\end{addmargin}
+\vspace{3pt}
+\resumeProjectHeading
+{\textbf{Sentiment Analysis of New York Times Headlines}}{\small\textit{Nov. 2024}}
+\begin{addmargin}[1em]{5em}
+
+
+
+\resumeItemListStart
+  \resumeItem{Cleaned and preprocessed 100+ years of NYT headline data for consistency}
+    \resumeItem{Generated embeddings and measured similarity to topical anchors (positivity, politics, sports)}
+  \resumeItem{Built predictive models on embedding-based features to track sentiment shifts across decades}
+\resumeItemListEnd
+\end{addmargin}
+\resumeSubHeadingListEnd
+% \resumeSubHeadingListStart
+
+\vspace{-3pt}
+
+% \resumeProjectHeading
+% {\textbf{Mathematical Modeling of Snowfall and Road Clearance}}{\small{\textit{Apr. 2022}}}
+% \begin{addmargin}[1em]{5em}
+% \resumeItemListStart
+%   \resumeItem{Built differential equation models in Mathematica to simulate snowfall and plow operations}
+% \resumeItem{Integrated historical snowfall data with mathematical models to forecast road snow depth}
+% \resumeItem{Optimized plow deployment strategies based on modeling results}
+
+
+
+% \resumeItemListEnd
+% \end{addmargin}
+% \resumeSubHeadingListEnd
+
+\vspace{-11pt}
+
+\section{Experience}
+  \resumeSubHeadingListStart
+        \vspace{4pt}
+        \resumeProjectHeading
+          {\textbf{Stat 111 Teaching Fellow} $|$ \footnotesize\emph{Harvard University}}{\small{\textit{Jan 2026 -- Present}}}
+          \begin{addmargin}[1em]{5em}
+          \resumeItemListStart
+            \resumeItem{Lead sections and review sessions for students in introductory statistical inference}
+            \resumeItem{Host Office Hours and clarify core concepts such as hypothesis testing, and probability models}
+            \resumeItem{Grade problem sets and exams, providing clear feedback to students}
+          \resumeItemListEnd
+          \end{addmargin}
+    \vspace{4pt}
+        \resumeProjectHeading
+          {\textbf{Machine Learning Research Assistant} $|$ \footnotesize\emph{Harvard University}}{\small{\textit{June 2025 -- August 2025}}}
+          \begin{addmargin}[1em]{5em}
+          \resumeItemListStart
+            
+            \resumeItem{Collaborated on developing a foundation model for geo-tagged health data to generate embeddings for downstream predictive tasks}
+            \resumeItem{Engineered regression pipelines in PyTorch, building reusable workflows that can integrate foundation model embeddings}
+            \resumeItem{Developed a graph neural network as a benchmark for geographic downstream prediction tasks}
+          \resumeItemListEnd
+          \end{addmargin}
+
+        \vspace{4pt}
+        \resumeProjectHeading
+          {\textbf{Math 55 Course Assistant} $|$ \footnotesize\emph{Harvard University}}{\small{\textit{Aug. 2024 -- May 2025}}}
+          \begin{addmargin}[1em]{5em}
+          \resumeItemListStart
+            % \resumeItem{Collaborate with a team of course assistants to lead engaging review sessions for over 50 students, helping them grasp complex mathematical concepts.}
+            % \resumeItem{Conduct office hours to provide personalized support to students.}
+            % \resumeItem{Act as a liaison between students and the instructor, communicating important course information and addressing student concerns.}
+            \resumeItem{Led review sessions for 50+ students, simplifying complex mathematical concepts}
+            \resumeItem{Provided personalized support during office hours}
+            \resumeItem{Facilitated communication between students and the instructor}
+          \resumeItemListEnd
+          \end{addmargin}
+% \vspace{5 pt}
+    %     \resumeProjectHeading
+    %       {\textbf{Math Coach} $|$ \footnotesize\emph{Michigan Technological University}}{\small{\textit{Aug. 2021 -- Aug. 2023}}}
+    %       \begin{addmargin}[1em]{5em}
+    %       \resumeItemListStart
+    %         % \resumeItem{Coached students in Calculus 1, Calculus 2, Multivariable Calculus, Differential Equations, and Linear Algebra.}
+    %         % \resumeItem{Provided personalized support in homework and exam preparation, boosting student confidence and performance.}
+    %         % \resumeItem{Encouraged peer interactions to enhance problem-solving skills and engagement.}
+    %         \resumeItem{Coached students in Calculus, Multivariable Calculus, Differential Equations, and Linear Algebra.}
+    %         \resumeItem{Supported homework and exam preparation, improving student confidence and performance.}
+    %         \resumeItem{Facilitated peer interactions to strengthen problem-solving and engagement.}
+    %       \resumeItemListEnd
+    %       \end{addmargin}
+
+    % \resumeSubHeadingListEnd
+
+    \vspace{-7pt}
+
+    \section{Leadership and Activities}
+       
+\vspace{-6pt}
+       
+       
+       \resumeProjectHeading
+  {\textbf{Harvard Varsity Nordic Ski Team} $|$ 
+   \footnotesize\emph{Member \& Wellness Leader}}{\small{\textit{Dec. 2023 -- Present}}}
+\begin{addmargin}[1em]{5em}
+\resumeItemListStart
+  \resumeItem{Balance 20–25 hrs/week of Division I training with academic excellence}
+  \resumeItem{Serve as a wellness leader by listening to teammates and connecting them with relevant resources}
+\resumeItemListEnd
+
+\end{addmargin}
+
+\vspace{5pt}
+\resumeProjectHeading
+  {\textbf{Harvard First-Year Outdoor Program (FOP)} $|$ 
+   \footnotesize\emph{Trip Leader}}{\small{\textit{Feb 2025 – Present}}}
+\begin{addmargin}[1em]{5em}
+\resumeItemListStart
+  \resumeItem{Co-lead a 10-student backpacking trip as part of Harvard’s pre-orientation programs}
+  \resumeItem{Facilitate nightly discussions to foster interpersonal connections and group cohesion}
+  \resumeItem{Manage risk in dynamic outdoor environments, making safety-focused decisions on medical care, camping, and navigation}
+\resumeItemListEnd
+\end{addmargin}
+
+\vspace{-8pt}
+
+\section{Interests}
+
+\vspace{-5pt}
+
+\small{Strategy board and card games (Euchre, Hearts, Diplomacy--top 2\% on popular website), endurance athletics}
+
+
+          
+
+          %\resumeProjectHeading
+          %{\textbf{Houghton High School Student Council} $|$ \footnotesize\emph{President; Class President}}{\small{\textit{Sep. 2019 -- May 2023}}}
+          %\begin{addmargin}[1em]{5em}
+          %{\small{ Advocated for and caused annual investment of \$50k into student mental health and support services. Addressed and resolved conflicts and challenges within the student body, implementing solutions to enhance the school environment and student experience. Organized and led major school events and initiatives, including fundraisers, dances, and mental health awareness campaigns, coordinating logistics, managing budgets, and overseeing event execution.
+ 
+          %\resumeItemListStart
+          % \resumeItem{Organized donations to charities: \$16k to Toys for Tots; \$7.5k to others}
+          %\resumeItemListEnd
+          %}}
+          %\end{addmargin}
+          
+    \resumeSubHeadingListEnd
+
+
+   
+
+
+\end{document}
